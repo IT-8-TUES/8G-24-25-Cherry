@@ -1,0 +1,53 @@
+:root {
+  --c1: #0085FF;
+  --c2: #0070FF;
+  --c3: #014CFE;
+  --c4: #3714FF;
+  --c5: #1F00CE;
+  --c6: #140085;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, var(--c6), var(--c1));
+  color: hsl(0, 15%, 91%);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background-color: var(--c5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+  .nav-links a {
+  text-decoration: none;
+  transition: color 0.3s;
+  color: white;
+}
+.nav-links a:hover {
+  color: var(--c1);
+}
+#html_logo{
+  width: 8%;
+  height: 8%;
+}
+#definition{
+    text-align: center;
+}
+#intro{
+    font-size: 200%;
+}
+#tags_intro{
+    font-size: 200%;
+}
