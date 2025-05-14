@@ -11,6 +11,11 @@ body {
   background: linear-gradient(to bottom, var(--c6), var(--c1));
   color: hsl(0, 15%, 91%);
 }
+#h1html{
+  font-size: 500%;
+  padding: 0px;
+  margin: 0px;
+}
 nav {
   display: flex;
   justify-content: space-between;
