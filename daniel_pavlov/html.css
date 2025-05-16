@@ -11,6 +11,9 @@ body {
   background: linear-gradient(to bottom, var(--c6), var(--c1));
   color: hsl(0, 15%, 91%);
 }
+#h1html {
+  font-size: 240%;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -40,15 +43,20 @@ nav {
   color: var(--c1);
 }
 #html_logo{
-  width: 8%;
-  height: 8%;
+  width: 5%;
+  height: 5%;
 }
 #definition{
     text-align: center;
 }
-#intro{
-    font-size: 200%;
+.example{
+  border-style: solid;
+  border-color: white;
+  background-color: black;
 }
-#tags_intro{
-    font-size: 200%;
+.result{
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  color: black;
 }
