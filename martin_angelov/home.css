@@ -70,31 +70,7 @@ h2{
     height: 300px;
     
 }
-#front_end{
-  display: flex;
-  flex-direction: column;
-  width: 25rem;
-  background-color: #f0f0f0;
-  color: #333;
-  font-family: Arial, sans-serif;
-  padding: 0.625rem;
-  border-radius: 0.31rem;
-  margin: 0.95rem;
-}
-
-#back_end{
-  display: flex;
-  flex-direction: column;
-  width: 25rem;
-  background-color: #f0f0f0;
-  color: #333;
-  font-family: Arial, sans-serif;
-  padding: 0.625rem;
-  border-radius: 0.31rem;
-  margin: 0.95rem;
-}
-
-#comp_net{
+.part{
   display: flex;
   flex-direction: column;
   width: 25rem;
