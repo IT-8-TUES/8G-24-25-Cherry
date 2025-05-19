@@ -46,10 +46,8 @@ nav {
   color: var(--c3);
 }
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: white;
+#logo {
+  height: 2rem;
 }
 footer{
   background-color: var(--c5);
@@ -65,16 +63,24 @@ footer{
     margin-right: 10px;
 } 
 #h1csharp{
-    font-size: 10rem;
+    font-size: 5rem;
     text-align: center;
-    color: #963cc7;
+    margin-bottom: 0;
 }
-.paragraph{
+#h1texttitle{
     font-size: 3rem;
     text-align: center;
+     margin-top: 0;
+}
+.paragraph{
+    font-size: 2rem;
+    text-align: center;
+    margin: 3rem;
 
 }
-
+#CodeExampleText{
+    margin: 3rem;
+}
 
 
 
