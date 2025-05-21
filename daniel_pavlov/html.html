@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML</title>
+    <link rel="icon" type="image/png" href="images/html.png"> 
     <link rel="stylesheet" href="html.css">
 </head>
 <body>
@@ -17,15 +18,18 @@
     </nav>
     <h1 id="h1html"><img src="images/html.png" id="html_logo">HTML</h1>
     <p id="definition">Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript, a programming language.</p>
-    <h2 id="intro">Here are the basics:</h2>
+    <h2 id="basics_intro">Basics:</h2>
     <div class="basics">
+        <p>HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of content to make it appear or act in a certain way. The enclosing tags can make content into a hyperlink to connect to another page, italicize words, and so on. </p>
+    </div>
+    <div class="elements">
         <ul>
-            <li>An HTML element is defined by a start tag, some content, and an end tag.</li>
-            <li>Tags are written starting with < and ending with />.</li>
-            <li>Each HTML document begins and ends with an < html > tag.</li>
+            <li>The opening tag: This consists of the name of the element (in this example, p for paragraph), wrapped in opening and closing angle brackets. This opening tag marks where the element begins or starts to take effect. In this example, it precedes the start of the paragraph text.<br><br></li>
+            <li>The content: This is the content of the element. In this example, it is the paragraph text.<br><br></li>
+            <li>The closing tag: This is the same as the opening tag, except that it includes a forward slash before the element name. This marks where the element ends. Failing to include a closing tag is a common beginner error that can produce peculiar results.</li>
         </ul>
     </div>
-    <h2 id="tags_intro">Here are some of the most used tags:</h2>
+    <h2 id="tags_intro">Most used tags:</h2>
     <div class="tags">
         <ul>
             <li>< html >-every HTML document begins and ends with this tag.</li>
@@ -36,8 +40,13 @@
             <li>< h1-6 >-this tag is used to create a heading of varying sizes. The biggest is h1 and the smallest is h6.</li>
         </ul>
     </div>
-    <h2 id="example_intro">Here is an example of some HTML:</h2>
+    <h2 id="example_intro">Example:</h2>
     <div class="example">
+        <div class="window-header">
+        <div class="circle red"></div>
+        <div class="circle yellow"></div>
+        <div class="circle green"></div>
+        </div>
         <p>< !DOCTYPE html ><br>
             < html ><br>
             < head ><br>
@@ -51,7 +60,7 @@
             < / body ><br>
             < / html ></p>
     </div>
-    <h2 id="result_intro">Here is the result:</h2>
+    <h2 id="result_intro">Result:</h2>
     <div class="result">
         <h1>This is a Heading</h1>
         <p>This is a paragraph.</p>
