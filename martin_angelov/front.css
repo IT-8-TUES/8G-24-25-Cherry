@@ -90,6 +90,30 @@ h1{
     width: 30px;
     height: auto;
 }
+#python_logo{
+    width: 30px;
+    height: auto;
+}
+#java_logo{
+    width: 30px;
+    height: auto;
+}
+#csharp_logo{
+    width: 30px;
+    height: auto;
+}
+#cpp_logo{
+    width: 30px;
+    height: auto;
+}
+#c_logo{
+    width: 30px;
+    height: auto;
+}
+#assembly_logo{
+    width: 30px;
+    height: auto;
+}
 button{
     background-color: #4CAF50;
     border: none;
