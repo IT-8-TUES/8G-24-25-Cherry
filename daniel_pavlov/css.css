@@ -1,0 +1,115 @@
+:root {
+  --c1: #F2F2F2;
+  --c2: #C0C0C0;
+  --c3: #808080;
+  --c4: #606060;
+  --c5: #333333;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, var(--c5), var(--c1));
+  color: #ebe5e5;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 1.8rem;
+  margin-left: 0;
+  background-color: var(--c5);
+  box-shadow: 0 0.125rem 0.25rem #00000033;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.nav-links {
+  display: flex;
+  gap: 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+
+}
+  .nav-links a {
+  text-decoration: none;
+  transition: color 0.3s;
+  color: white;
+}
+
+.nav-links a:hover {
+  color: var(--c3);
+}
+#logo{
+  height: 2rem;
+  
+}
+#css_logo{
+  text-align: center;
+  width: 5%;
+  height: 5%;
+}
+#h1css{
+  text-align: center;
+}
+#definition{
+    text-align: center;
+}
+.basics{
+  text-align: center;
+}
+.flexbox{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.flexbox > div {
+  background-color: #F2F2F2;
+  color: #808080;
+  width: 10rem;
+  margin: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  font-size: 1rem;
+}
+.example {
+            width: 70rem;
+            margin: auto;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px #00000033;
+            background-color: #2d2d2d;
+        }
+
+        .window-header {
+            background-color: #444;
+            padding: 0.5rem 1rem;
+            display: flex;
+            gap: 0.5rem;
+        }
+
+         .circle {
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+        }
+
+        .red { background-color: #ff5f56; }
+        .yellow { background-color: #ffbd2e; }
+        .green { background-color: #27c93f; }
+footer{
+  background-color: var(--c5);
+  color: white;
+  text-align: center;
+  padding: 1.2rem 0;
+  width: 100%;
+  box-shadow: 0 -0.125rem 0.25rem #00000033;
+  margin-top: auto;
+} 

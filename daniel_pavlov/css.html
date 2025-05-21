@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="icon" type="image/webp" href="images/cherry-logo.webp"> 
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <nav>
+    <div class="nav-links">
+      <a href="../martin_angelov/home.html"><img src="images/cherry-logo.webp" id="logo"></a>
+      <a href="../martin_angelov/front.html">Front end</a>
+      <a href="../martin_angelov/back.html">Back end</a>
+      <a href="../martin_angelov/comp_net.html">Computer networking</a>
+    </div>
+    </nav>
+    <h1 id="h1css"><img src="images/CSS-Logo.png" id="css_logo">CSS</h1>
+    <p id="definition">Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+    <h2 id="basics_intro">Basics:</h2>
+    <div class="basics">
+        <p>CSS is used to style HTML elements: you select the elements you want to style and set values for their style properties, which define how they will look. CSS has many functions, from specifying background images and gradients, to controlling typography and scrolling behavior, to adding animations and building entire web page layouts.</p>
+    </div>
+    <h2 id="flexbox_intro">Flexbox</h2>
+    <div class="flexbox_description">
+        <p>Flexbox is a one-dimensional layout method for arranging items in rows or columns. Items flex (expand) to fill additional space or shrink to fit into smaller spaces.<br>Here is an example:</p>
+    </div>
+    <div class="flexbox">
+        <div><h3>Item 1</h3></div>
+        <div><h3>Item 2</h3></div>
+        <div><h3>Item 3</h3></div>
+        <div><h3>Item 4</h3></div>
+        <div><h3>Item 5</h3></div>
+    </div>
+    <p>When you resize your browser, the items "wrap".</p>
+    <h2 id="properties_intro">Flexbox properties:</h2>
+    <div class="properties">
+        <p>Since flexbox is a whole module and not a single property, it involves a lot of things including its whole set of properties. Some of them are meant to be set on the container (parent element, known as “flex container”) whereas the others are meant to be set on the children (said “flex items”).<br><br>The properties for the parent are:</p>
+        <ul>
+            <li>display</li>
+            <li>flex-direction</li>
+            <li>flex-wrap</li>
+            <li>flex-flow</li>
+            <li>justify-content</li>
+            <li>align-items</li>
+            <li>align-content</li>
+            <li>gap, row-gap, column-gap</li>
+        </ul>
+        <p>The properties for the children are:</p>
+        <ul>
+            <li>order</li>
+            <li>flex-grow</li>
+            <li>flex-shrink</li>
+            <li>flex-basis</li>
+            <li>flex</li>
+            <li>align-self</li>
+        </ul>
+    </div>
+    <h2 id="example_intro">Example:</h2>
+    <div class="example">
+        <div class="window-header">
+        <div class="circle red"></div>
+        <div class="circle yellow"></div>
+        <div class="circle green"></div>
+        </div>
+        <p> .flexbox{<br>
+     display: flex;<br>
+     background-color: aqua;<br>
+     justify-content: space-around;<br>
+     flex-wrap: wrap;<br>
+     margin: auto;<br>
+        }<br>
+ .flexbox > div {<br>
+background-color: #F2F2F2;<br>
+  color: #808080;<br>
+  width: 10rem;<br>
+  margin: 1rem;<br>
+  text-align: center;<br>
+  line-height: 1rem;<br>
+  font-size: 1rem;<br>
+}</p>
+    </div>
+    <p>The result for this code is the flexbox you saw above.</p>
+</body>
+<footer>
+    <p>Created by team Cherry<br><br>2025<br><br>&copy; All rights reserved</p>
+</footer>
+</html>
