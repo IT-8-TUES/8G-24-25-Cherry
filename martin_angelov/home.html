@@ -41,9 +41,22 @@
             <a href="embedded_programing.html"><button>Check here</button></a>
         </div>
     </div>
-
-</body>
-<footer>
-    <p>Created by team Cherry<br><br>2025<br><br>&copy; All rights reserved</p>
-</footer>
+    <div id="contactBox">
+  <strong>Contact</strong><br>
+  Email: martin.a.angelov.2024@elsys-bg.org<br>
+  Phone: 0876849902<br>
+  <button onclick="toggleContactBox()" style="margin-top:10px;">Close</button>
+</div>
+    <script>
+    function toggleContactBox() {
+    const box = document.getElementById("contactBox");
+    box.style.display = box.style.display === "none" ? "block" : "none";
+}
+</script>
+</body> 
+    <footer>
+        <p>Created by team Cherry<br><br>2025<br><br>&copy; All rights reserved</p>
+        <a href="#" onclick="toggleContactBox()" id="contact">Contact</a>
+        <a href="about.html" id="about">About</a>
+    </footer>
 </html>
