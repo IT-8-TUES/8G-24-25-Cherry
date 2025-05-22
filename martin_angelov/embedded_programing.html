@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Front end</title>
-    <link rel="stylesheet" href="front.css">
+    <link rel="stylesheet" href="lang.css">
 </head>
 <body>
     <nav>
@@ -28,17 +28,36 @@
             <a href="../martin_angelov/embedded_programing.html"><button> More info</button></a>
         </div>   
         <div id="cpp" class="flang">
-            <h1><img src="images/c++-logo.jpg" id="cpp_logo">C++</h1>
+            <h1><img src="images/c++-logo.png" id="cpp_logo">C++</h1>
             <p>C++ is an extension of C that adds object-oriented features. It is commonly used in embedded systems for its performance and ability to manage complex software architectures.</p>
             <a href="../martin_angelov/embedded_programing.html"><button> More info</button></a>
         </div> 
-        <div id="assembly" class="flang">
-            <h1><img src="images/assembly-logo.png" id="assembly_logo">Assembly</h1>
-            <p>Assembly language is a low-level programming language that provides direct control over hardware. It is used in embedded systems for performance-critical applications and hardware-specific tasks.</p>
-            <a href="../martin_angelov/embedded_programing.html"><button> More info</button></a>
-        </div>
     </div>
+    <div id="contactBox" style="
+  display: none;
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+  font-size: 14px;">
+  <strong>Contact Us</strong><br>
+  Email: support@yourproject.com<br>
+  Phone: +123 456 7890<br>
+  <button onclick="toggleContactBox()" style="margin-top:10px;">Close</button>
+</div>
+    <script>
+    function toggleContactBox() {
+    const box = document.getElementById("contactBox");
+    box.style.display = box.style.display === "none" ? "block" : "none";
+}
+</script>
 </body> 
     <footer>
     <p>Created by team Cherry<br><br>2025<br><br>&copy; All rights reserved</p>
+    <a href="#" onclick="toggleContactBox()">Contact</a>
     </footer>
