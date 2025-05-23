@@ -48,19 +48,41 @@ nav {
 .nav-links a:hover {
   color: var(--c3);
 }
-
 #logo{
   height: 2rem;
   
 }
+
 #h1html{
   text-align: center;
 }
-#definition{
-    text-align: center;
+#basics_intro{
+  margin-left: 5rem;
 }
-.basics{
+#basics{
+  margin-left: 5rem;
+}
+.elements{
+  margin-left: 5rem;
+}
+#definition{
   text-align: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+#basics{
+  text-align: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+#tags_intro{
+  margin-left: 5rem;
+}
+.tags{
+  margin-left: 5rem;
+}
+#example_intro{
+  margin-left: 5rem;
 }
 .example {
             width: 70rem;
@@ -87,7 +109,9 @@ nav {
         .red { background-color: #ff5f56; }
         .yellow { background-color: #ffbd2e; }
         .green { background-color: #27c93f; }
-
+#result_intro{
+  margin-left: 5rem;
+}
 .result{
   border-style: solid;
   border-color: black;
@@ -95,7 +119,7 @@ nav {
   color: black;
   margin-bottom: 1rem;
   margin-right: 1rem;
-  margin-left: 1rem;
+  margin-left: 5rem;
 }
 footer{
   background-color: rgba(83, 79, 79, 0.2);

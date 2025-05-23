@@ -59,8 +59,17 @@ nav {
 #definition{
     text-align: center;
 }
-.basics{
+#basics_intro{
+  margin-left: 5rem;
+}
+#basics{
   text-align: center;
+}
+.statements{
+  margin-left: 5rem;
+}
+.example_intro{
+  margin-left: 5rem;
 }
 .example {
             width: 70rem;
@@ -87,11 +96,8 @@ nav {
         .red { background-color: #ff5f56; }
         .yellow { background-color: #ffbd2e; }
         .green { background-color: #27c93f; }
-.button{
-  background-color: #808080;
-  margin-right: 5rem;
+#result{
   margin-left: 5rem;
-  margin-top: 1rem;
 }
 footer{
   background-color: rgba(83, 79, 79, 0.2);

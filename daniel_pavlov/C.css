@@ -59,8 +59,17 @@ nav {
 #definition{
     text-align: center;
 }
-.basics{
+#basics_intro{
+  margin-left: 5rem;
+}
+#basics{
   text-align: center;
+}
+.characteristics{
+  margin-left: 5rem;
+}
+#example_intro{
+  margin-left: 5rem;
 }
 .example {
             width: 70rem;
@@ -87,7 +96,9 @@ nav {
         .red { background-color: #ff5f56; }
         .yellow { background-color: #ffbd2e; }
         .green { background-color: #27c93f; }
-
+#result_intro{
+  margin-left: 5rem;
+}
 .result{
   border-style: solid;
   border-color: white;

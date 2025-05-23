@@ -63,8 +63,19 @@ nav {
 #definition{
     text-align: center;
 }
-.basics{
+#basics_intro{
+  margin-left: 5rem;
+}
+#basics{
   text-align: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+#flexbox_intro{
+  margin-left: 5rem;
+}
+#flexbox_description{
+  margin-left: 5rem;
 }
 .flexbox{
     display: flex;
@@ -81,6 +92,9 @@ nav {
   text-align: center;
   line-height: 1rem;
   font-size: 1rem;
+}
+#resize{
+  margin-left: 5rem;
 }
 .example {
             width: 70rem;
@@ -107,6 +121,18 @@ nav {
         .red { background-color: #ff5f56; }
         .yellow { background-color: #ffbd2e; }
         .green { background-color: #27c93f; }
+#properties_intro{
+  margin-left: 5rem;
+}
+.properties{
+  margin-left: 5rem;
+}
+#example_intro{
+  margin-left: 5rem;
+}
+#result{
+  margin-left: 5rem;
+}
 footer{
   background-color: rgba(83, 79, 79, 0.2);
   color: white;
