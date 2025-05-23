@@ -8,11 +8,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   min-height: 100vh;
-  background-image: url(https://wallpapers.com/images/hd/4k-tech-fi904sfb2h6pmfhs.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
+  background-color: var(--c5);
   color: #ebe5e5;
   display: flex;
   flex-direction: column;
@@ -48,7 +44,6 @@ nav {
 .nav-links a:hover {
   color: var(--c3);
 }
-
 #logo{
   height: 2rem;
   
