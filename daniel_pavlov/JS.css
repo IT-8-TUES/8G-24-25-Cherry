@@ -44,16 +44,13 @@ nav {
 .nav-links a:hover {
   color: var(--c3);
 }
+
+
 #logo{
   height: 2rem;
   
 }
-#css_logo{
-  text-align: center;
-  width: 5%;
-  height: 5%;
-}
-#h1css{
+#h1JS{
   text-align: center;
 }
 #definition{
@@ -61,22 +58,6 @@ nav {
 }
 .basics{
   text-align: center;
-}
-.flexbox{
-    display: flex;
-    background-color: aqua;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: auto;
-}
-.flexbox > div {
-  background-color: #F2F2F2;
-  color: #808080;
-  width: 10rem;
-  margin: 1rem;
-  text-align: center;
-  line-height: 1rem;
-  font-size: 1rem;
 }
 .example {
             width: 70rem;
@@ -103,6 +84,12 @@ nav {
         .red { background-color: #ff5f56; }
         .yellow { background-color: #ffbd2e; }
         .green { background-color: #27c93f; }
+.button{
+  background-color: #808080;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
 footer{
   background-color: rgba(83, 79, 79, 0.2);
   color: white;

@@ -81,9 +81,25 @@ background-color: #F2F2F2;<br>
   font-size: 1rem;<br>
 }</p>
     </div>
-    <p>The result for this code is the flexbox you saw above.</p>
+    <p>The result of this code is the flexbox you saw above.</p>
 </body>
 <footer>
-    <p>Created by team Cherry<br><br>2025<br><br>&copy; All rights reserved</p>
-</footer>
+        <p>Created by team Cherry<br><br>2025<br><br>&copy; All rights reserved</p>
+        <div style="position: relative; display: inline-block;"><a href="#" onclick="toggleContactBox()" id="contact">Contact</a>
+        <div id="contactBox">
+  <strong>Contact</strong><br>
+  Email: martin.a.angelov.2024@elsys-bg.org<br>
+  Phone: 0876849902<br>
+  <button onclick="toggleContactBox()" style="margin-top:10px;">Close</button>
+        </div>
+        </div>
+        <a href="about.html" id="about">About</a>
+    </footer>
+
+    <script>
+    function toggleContactBox() {
+    const box = document.getElementById("contactBox");
+    box.style.display = box.style.display === "none" ? "block" : "none";
+}
+</script>
 </html>

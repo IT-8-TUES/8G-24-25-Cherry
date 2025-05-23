@@ -8,7 +8,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   min-height: 100vh;
-  background: linear-gradient(to bottom, var(--c5), var(--c1));
+  background-color: var(--c5);
   color: #ebe5e5;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,6 @@ nav {
   padding: 1.2rem 1.8rem;
   margin-left: 0;
   background-color: var(--c5);
-  box-shadow: 0 0.125rem 0.25rem #00000033;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -49,11 +48,6 @@ nav {
 #logo{
   height: 2rem;
   
-}
-#html_logo{
-  text-align: center;
-  width: 5%;
-  height: 5%;
 }
 #h1html{
   text-align: center;
@@ -96,13 +90,36 @@ nav {
   background-color: white;
   color: black;
   margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 footer{
-  background-color: var(--c5);
+  background-color: rgba(83, 79, 79, 0.2);
   color: white;
-  text-align: center;
+  display: flex;;
+  flex-direction: row;
+  justify-content: space-around;
   padding: 1.2rem 0;
   width: 100%;
-  box-shadow: 0 -0.125rem 0.25rem #00000033;
+  box-shadow: 0 -0.125rem 0.25rem rgba(0, 0, 0, 0.2);
   margin-top: auto;
+  text-align : center;
 } 
+#contactBox{
+  display: none;
+  background-color: #274C77;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 25rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  font-size: 14px;
+}
+#contact{
+  text-decoration: none;
+  color: white;
+  margin-right: 0%;
+}
+#about{
+  text-decoration: none;
+  color: white;
+}

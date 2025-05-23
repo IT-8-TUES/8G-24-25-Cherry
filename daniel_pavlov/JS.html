@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="icon" type="image/webp" href="images/cherry-logo.webp"> 
+    <link rel="stylesheet" href="JS.css">
+</head>
+<body>
+    <script src="JS.js"></script>
+    <nav>
+    <div class="nav-links">
+      <a href="../martin_angelov/home.html"><img src="images/cherry-logo.webp" id="logo"></a>
+      <a href="../martin_angelov/front.html">Front end</a>
+      <a href="../martin_angelov/back.html">Back end</a>
+      <a href="../martin_angelov/comp_net.html">Computer networking</a>
+    </div>
+    </nav>
+    <h1 id="h1JS">JavaScript</h1>
+    <p id="definition">JavaScript is a high-level, often just-in-time-compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).</p>
+    <h2 id="basics_intro">Basics:</h2>
+    <div class="basics">
+      <p>JavaScript can change HTML and CSS content. JS code is a sequence of statements, which are commands to the browser and are separated by semicolons(;). Multiple statements are allowed on one line. They can be gouped together in code blocks. Breaking a code line is allowed after an operator or a comma. JavaScript statements are composed of: Values, Operators, Expressions, Keywords, and Comments.</p>
+    </div>
+    <h2 id="statements_intro">Most used statements:</h2>
+    <div class="statements">
+      <ul>
+        <li>var-declares a variable</li>
+        <li>let-declares a block variable</li>
+        <li>const-declares a block constant</li>
+        <li>if-marks a block of statements to be executed on a condition</li>
+        <li>switch-marks a block of statements to be executed in different cases</li>
+        <li>for-marks a block of statements to be executed in a loop</li>
+        <li>function-declares a function</li>
+        <li>return-exits a function</li>
+        <li>try-implements error handling to a block of statements</li>
+      </ul>
+    </div>
+     <h2 id="example_intro">Example:</h2>
+     <p>Here is how to make a button:</p>
+    <div class="example">
+        <div class="window-header">
+        <div class="circle red"></div>
+        <div class="circle yellow"></div>
+        <div class="circle green"></div>
+        </div>
+        <p>
+          function change(){<br>
+        document.getElementById("result").innerHTML = "Here is the result";<br>
+      }
+        </p>
+    </div>
+    <script>
+      function change(){
+        document.getElementById("result").innerHTML = "Here is the result";
+      }
+    </script>
+    <button onclick="change()" style="margin-left: 5rem;margin-right: 50rem;margin-top: 1rem;">Click me!</button>
+    <p id="result"></p>
+</body>
+<footer>
+        <p>Created by team Cherry<br><br>2025<br><br>&copy; All rights reserved</p>
+        <div style="position: relative; display: inline-block;"><a href="#" onclick="toggleContactBox()" id="contact">Contact</a>
+        <div id="contactBox">
+  <strong>Contact</strong><br>
+  Email: martin.a.angelov.2024@elsys-bg.org<br>
+  Phone: 0876849902<br>
+  <button onclick="toggleContactBox()" style="margin-top:10px;">Close</button>
+        </div>
+        </div>
+        <a href="about.html" id="about">About</a>
+    </footer>
+
+    <script>
+    function toggleContactBox() {
+    const box = document.getElementById("contactBox");
+    box.style.display = box.style.display === "none" ? "block" : "none";
+}
+</script>
+</html>
