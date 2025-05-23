@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C</title>
+    <link rel="icon" type="image/webp" href="images/cherry-logo.webp"> 
+    <link rel="stylesheet" href="C.css">
+</head>
+<body>
+    <nav>
+    <div class="nav-links">
+      <a href="../martin_angelov/home.html"><img src="images/cherry-logo.webp" id="logo"></a>
+      <a href="../martin_angelov/front.html">Front end</a>
+      <a href="../martin_angelov/back.html">Back end</a>
+      <a href="../martin_angelov/embedded_programing.html">Embedded programming</a>
+    </div>
+    </nav>
+    <h1 id="h1C">C</h1>
+    <p id="definition">C is a general-purpose programming language. It was created in the 1970s by Dennis Ritchie and remains very widely used and influential. By design, C's features cleanly reflect the capabilities of the targeted CPUs. It has found lasting use in operating systems code (especially in kernels), device drivers, and protocol stacks, but its use in application software has been decreasing. C is commonly used on computer architectures that range from the largest supercomputers to the smallest microcontrollers and embedded systems.</p>
+    <h2 id="basics_intro">Basics:</h2>
+    <div class="basics">
+        <p>C program source text is free-form code. Semicolons terminate statements, while curly braces are used to group statements into blocks.<br>The C language also exhibits the following characteristics:</p>
+    </div>
+    <div class="characteristics">
+        <ul>
+            <li>The language has a small, fixed number of keywords, including a full set of control flow primitives: if/else, for, do/while, while, and switch. User-defined names are not distinguished from keywords by any kind of sigil.</li>
+            <li>Functions return values can be ignored, when not needed. Function and data pointers permit ad hoc run-time polymorphism. Functions may not be defined within the lexical scope of other functions. Variables may be defined within a function, with scope. A function may call itself, so recursion is supported.</li>
+            <li>Data typing is static, but weakly enforced; all data has a type, but implicit conversions are possible.</li>
+            <li>User-defined (typedef) and compound types are possible.</li>
+            <li>Low-level access to computer memory is possible by converting machine addresses to pointers.</li>
+            <li>Procedures (subroutines not returning values) are a special case of function, with an empty return type void.</li>
+            <li>Memory can be allocated to a program with calls to library routines.</li>
+            <li>A preprocessor performs macro definition, source code file inclusion, and conditional compilation.</li>
+            <li>Complex functionality such as I/O, string manipulation, and mathematical functions are consistently delegated to library routines.</li>
+            <li>The generated code after compilation has relatively straightforward needs on the underlying platform, which makes it suitable for creating operating systems and for use in embedded systems.</li>
+        </ul>
+    </div>
+    <h2 id="example_intro">Example:</h2>
+    <div class="example">
+        <div class="window-header">
+        <div class="circle red"></div>
+        <div class="circle yellow"></div>
+        <div class="circle green"></div>
+        </div>
+        <p>
+            #include<stdio.h><br>
+            int main()<br>
+            {<br>
+                printf("Hello World");<br>
+                return 0;<br>
+            }
+        </p>
+    </div>
+    <h2 id="result_intro">Result:</h2>
+    <div class="result">
+        <p>Hello World<br>Process returned 0 (0x0)<br></p>
+    </div>
+</body>
+<footer>
+        <p>Created by team Cherry<br><br>2025<br><br>&copy; All rights reserved</p>
+        <div style="position: relative; display: inline-block;"><a href="#" onclick="toggleContactBox()" id="contact">Contact</a>
+        <div id="contactBox">
+  <strong>Contact</strong><br>
+  Email: martin.a.angelov.2024@elsys-bg.org<br>
+  Phone: 0876849902<br>
+  <button onclick="toggleContactBox()" style="margin-top:10px;">Close</button>
+        </div>
+        </div>
+        <a href="about.html" id="about">About</a>
+    </footer>
+
+    <script>
+    function toggleContactBox() {
+    const box = document.getElementById("contactBox");
+    box.style.display = box.style.display === "none" ? "block" : "none";
+}
+</script>
+</html>
