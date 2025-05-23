@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Front end</title>
+    <link rel="icon" type="image/webp" href="images/cherry-logo.webp"> 
     <link rel="stylesheet" href="lang.css">
 </head>
 <body>
@@ -12,7 +13,7 @@
             <a href="home.html"><img src="images/cherry-logo.webp" id="logo"></a>
             <a href="front.html">Front end</a>
             <a href="back.html">Back end</a>
-            <a href="embedded_programing.html">Computer networking</a>
+            <a href="embedded_programing.html">Embedded programming</a>
         </div>
     </nav>
     <h1 id="title">Front end</h1>
@@ -39,12 +40,19 @@
             <a href="../daniel_pavlov/js.html"><button> More info</button></a>
         </div>
     </div>
-    <div id="contactBox">
+        <footer>
+        <p>Created by team Cherry<br><br>2025<br><br>&copy; All rights reserved</p>
+        <div style="position: relative; display: inline-block;"><a href="#" onclick="toggleContactBox()" id="contact">Contact</a>
+        <div id="contactBox">
   <strong>Contact</strong><br>
   Email: martin.a.angelov.2024@elsys-bg.org<br>
   Phone: 0876849902<br>
   <button onclick="toggleContactBox()" style="margin-top:10px;">Close</button>
-</div>
+        </div>
+        </div>
+        <a href="about.html" id="about">About</a>
+    </footer>
+
     <script>
     function toggleContactBox() {
     const box = document.getElementById("contactBox");
@@ -52,9 +60,4 @@
 }
 </script>
 </body> 
-    <footer>
-        <p>Created by team Cherry<br><br>2025<br><br>&copy; All rights reserved</p>
-        <a href="#" onclick="toggleContactBox()" id="contact">Contact</a>
-        <a href="about.html" id="about">About</a>
-    </footer>
 </html>
