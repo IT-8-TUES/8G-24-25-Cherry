@@ -13,50 +13,82 @@
       <a href="../martin_angelov/home.html"><img src="./images/cherry-logo.webp" id="logo"></a>
       <a href="../martin_angelov/front.html">Front end</a>
       <a href="../martin_angelov/back.html">Back end</a>
-      <a href="../martin_angelov/comp_net.html">Computer networking</a>
+      <a href="../martin_angelov/comp_net.html">Embedded programming</a>
     </div>
     </nav>
-    <!-- <img src="images/c_sharp.webp" id="c_sharp_logo"> -->
-    <h1 id="h1csharp"> C#,</h1> 
+    <h1 id="h1csharp"> C#</h1> 
     <h1 id="h1texttitle">The modern, innovative, open-source programming language for building all your apps.</h1>
+    <div>
     <p class="paragraph">C# (pronounced "C-sharp") is a modern, versatile programming language developed by Microsoft as part of its .NET initiative in the early 2000s. Created under the leadership of Anders Hejlsberg, C# was designed to bring the power and performance of languages like C++ together with the simplicity and productivity found in higher-level languages like Visual Basic. It quickly became a core language for the .NET ecosystem and remains one of the most widely used programming languages in the world today.
 
 At its heart, C# is an object-oriented language. This means that it relies heavily on the use of classes and objects to structure software, making it well-suited to complex, large-scale applications. Features like inheritance, encapsulation, and polymorphism are built into the language, allowing developers to model real-world systems effectively. With each iteration, C# has also incorporated more functional programming concepts, such as lambda expressions, pattern matching, and LINQ (Language Integrated Query), blending different paradigms into a cohesive whole.
-
-
-
-<br><br>
-
-
-C# (pronounced "C-sharp") is a modern, versatile programming language developed by Microsoft as part of its .NET initiative in the early 2000s. Created under the leadership of Anders Hejlsberg, C# was designed to bring the power and performance of languages like C++ together with the simplicity and productivity found in higher-level languages like Visual Basic. It quickly became a core language for the .NET ecosystem and remains one of the most widely used programming languages in the world today.
-
-At its heart, C# is an object-oriented language. This means that it relies heavily on the use of classes and objects to structure software, making it well-suited to complex, large-scale applications. Features like inheritance, encapsulation, and polymorphism are built into the language, allowing developers to model real-world systems effectively. With each iteration, C# has also incorporated more functional programming concepts, such as lambda expressions, pattern matching, and LINQ (Language Integrated Query), blending different paradigms into a cohesive whole.
-</p>
-<h1 id="CodeExampleText">Here is an example of a short c# program:</h1>
-    <div class="code-window">
-        <div class="window-header">
+</p></div>
+<div class="elements">
+    <h1>Key Features:</h1>
+<ul>
+    <li>Object-Oriented - Supports principles like inheritance, encapsulation, and polymorphism.</li><br>
+    <li>Type-Safe - Prevents type errors during runtime.</li><br>
+    <li>Rich Standard Lib<br>rary - Comes with a vast collection of built-in methods and types.</li><br>
+    <li>Cross-Platform - Supported on Windows, macOS, and Linux via .NET Core/.NET 5+.</li><br>
+    <li>Versatile - Ideal for desktop apps, web apps (ASP.NET), mobile apps (Xamarin), and games (Unity).</li>
+</ul>
+</div>
+<div class="elements">
+    <h1>Popular Use Cases:</h1>
+<ul>
+    <li>Web Development: Using ASP.NET Core for scalable websites and APIs.</li><br>
+    <li>Game Development: Widely used in Unity for 2D and 3D games.</li><br>
+    <li>Desktop Applications: With Windows Forms or WPF..</li><br>
+    <li>Cloud Applications: Leveraging Azure services with C# backends.
+</ul>
+</div>
+<div class="elements">
+<h1 id="CodeExampleText">Basic Syntax Example:</h1>
+<div class="code-window">
+    <div class="window-header">
         <div class="circle red"></div>
         <div class="circle yellow"></div>
         <div class="circle green"></div>
-        </div>
-        <pre><code>
+    </div>
+    <pre><code>
         using System;
-
+        
         namespace HelloWorld
         {
         class Program
         {
             static void Main(string[] args)
             {
-            Console.WriteLine("Hello World!");    
+                Console.WriteLine("Hello World!");    
             }
         }
-        }
-        </code></pre>
+    }
+</code></pre>
+</div>
 </div>
 
-    <footer>
-    <p>Created by team Cherry<br><br>2025<br><br>&copy; All rights reserved</p>
-</footer>
 </body>
+
+
+
+
+<footer>
+        <p>Created by team Cherry<br><br>2025<br><br>&copy; All rights reserved</p>
+        <div style="position: relative; display: inline-block;"><a href="#" onclick="toggleContactBox()" id="contact">Contact</a>
+        <div id="contactBox">
+  <strong>Contact</strong><br>
+  Email: martin.a.angelov.2024@elsys-bg.org<br>
+  Phone: 0876849902<br>
+  <button onclick="toggleContactBox()" style="margin-top:10px;">Close</button>
+        </div>
+        </div>
+        <a href="about.html" id="about">About</a>
+    </footer>
+
+    <script>
+    function toggleContactBox() {
+    const box = document.getElementById("contactBox");
+    box.style.display = box.style.display === "none" ? "block" : "none";
+}
+</script>
 </html>

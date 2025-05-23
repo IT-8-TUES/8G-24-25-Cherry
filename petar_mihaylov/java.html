@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+    <link rel="icon" type="image/webp" href="images/cherry-logo.webp"> 
+    <link rel="stylesheet" href="css3.css">
+</head>
+<body class="background">
+    <nav>
+    <div class="nav-links">
+      <a href="../martin_angelov/home.html"><img src="./images/cherry-logo.webp" id="logo"></a>
+      <a href="../martin_angelov/front.html">Front end</a>
+      <a href="../martin_angelov/back.html">Back end</a>
+      <a href="../martin_angelov/comp_net.html">Embedded programming</a>
+    </div>
+    </nav>
+    <h1 id="h1csharp"> Java</h1> 
+    <div>
+    <p class="paragraph">is a powerful, high-level, class-based, and object-oriented programming language that is specifically designed to have as few implementation dependencies as possible. This design philosophy enables developers to write code that is highly portable and easily maintainable. One of Java’s most significant advantages is its platform independence—Java code is typically compiled into an intermediate form known as bytecode. This bytecode is not executed directly by the operating system but instead runs on the Java Virtual Machine (JVM), a software-based engine that interprets and executes the code. This means that a Java application compiled on one platform can run on any other platform that has a compatible JVM installed, making Java a "write once, run anywhere" language.
+        <br><br>
+        Java is widely used across various domains, including desktop applications, web development, enterprise-level systems, scientific computing, and especially mobile applications, most notably for Android app development. Its rich standard library, robust memory management via automatic garbage collection, built-in security mechanisms, and support for multithreaded programming make it a versatile and reliable choice for developers around the world. With a vast ecosystem of frameworks, tools, and an active community, Java continues to be one of the most widely used and respected programming languages in the software development world.
+</p></div>
+<div class="elements">
+    <h1>Key Features:</h1>
+<ul>
+    <li>Platform Independence: Write once, run anywhere (WORA) via the JVM.</li><br>
+    <li>Object-Oriented: Everything is treated as an object.</li><br>
+    <li>Strongly Typed: Type checking is done both at compile time and runtime.</li><br>
+    <li>Automatic Memory Management: Java handles memory via garbage collection.</li><br>
+    <li>Rich Standard Library: Includes packages for data structures, networking, file I/O, GUI development, and more.</li><br>
+    <li>Multithreaded: Built-in support for multithreaded programming.</li>
+</ul>
+</div>
+<div class="elements">
+    <h1>Popular Use Cases:</h1>
+<ul>
+    <li>Android App Development</li><br>
+    <li>Enterprise Applications (e.g., using Spring Framework)</li><br>
+    <li>Web Applications (e.g., using Java EE, Servlets, JSP)</li><br>
+    <li>Embedded Systems</li><br>
+    <li>Desktop GUI Applications</li><br>
+    <li>Scientific Applications</li>
+</ul>
+</div>
+<div class="elements">
+<h1 id="CodeExampleText">Code Example:</h1>
+<div class="code-window">
+    <div class="window-header">
+        <div class="circle red"></div>
+        <div class="circle yellow"></div>
+        <div class="circle green"></div>
+    </div>
+    <pre><code>
+        public class HelloWorld {
+        public static void main(String[] args) {
+            System.out.println("Hello, World!");
+        }
+    }
+</code></pre>
+</div>
+</div>
+</body>
+
+
+
+
+<footer>
+        <p>Created by team Cherry<br><br>2025<br><br>&copy; All rights reserved</p>
+        <div style="position: relative; display: inline-block;"><a href="#" onclick="toggleContactBox()" id="contact">Contact</a>
+        <div id="contactBox">
+  <strong>Contact</strong><br>
+  Email: martin.a.angelov.2024@elsys-bg.org<br>
+  Phone: 0876849902<br>
+  <button onclick="toggleContactBox()" style="margin-top:10px;">Close</button>
+        </div>
+        </div>
+        <a href="about.html" id="about">About</a>
+    </footer>
+
+    <script>
+    function toggleContactBox() {
+    const box = document.getElementById("contactBox");
+    box.style.display = box.style.display === "none" ? "block" : "none";
+}
+</script>
+</html>

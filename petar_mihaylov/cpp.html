@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++</title>
+    <link rel="icon" type="image/webp" href="images/cherry-logo.webp"> 
+    <link rel="stylesheet" href="css3.css">
+</head>
+<body class="background">
+    <nav>
+    <div class="nav-links">
+      <a href="../martin_angelov/home.html"><img src="./images/cherry-logo.webp" id="logo"></a>
+      <a href="../martin_angelov/front.html">Front end</a>
+      <a href="../martin_angelov/back.html">Back end</a>
+      <a href="../martin_angelov/comp_net.html">Embedded programming</a>
+    </div>
+    </nav>
+    <h1 id="h1csharp"> C++,</h1> 
+    <div>
+    <p class="paragraph">is a powerful, high-performance, general-purpose programming language that was developed by Danish computer scientist Bjarne Stroustrup at Bell Labs in the early 1980s. Originally conceived as an enhancement to the C programming language, C++ was designed to incorporate the features of object-oriented programming while retaining the efficiency and control provided by C. The language was first released in 1985 and quickly gained popularity due to its flexibility, performance, and extensive feature set.<br><br>
+    C++ builds upon the procedural foundation of C by introducing object-oriented features such as classes, inheritance, polymorphism, and encapsulation, which make it well-suited for managing complex software projects and promoting code reuse and modularity. Over time, C++ has evolved significantly through multiple standards (such as C++98, C++11, C++14, C++17, and C++20), each introducing new features, libraries, and improvements to help developers write more expressive and efficient code.
+</p></div>
+<div class="elements">
+    <h1>Key Features:</h1>
+<ul>
+    <li>Object-Oriented Programming (OOP): C++ supports classes, inheritance, polymorphism, encapsulation, and abstraction.</li><br>
+    <li>Performance: C++ is a compiled language known for high performance and low-level memory manipulation.</li><br>
+    <li>Standard Template Library (STL): Provides pre-built classes and functions like vectors, lists, queues, and algorithms.</li><br>
+    <li>Compatibility with C: C++ maintains almost complete compatibility with C, allowing integration of legacy code.</li><br>
+    <li>Multi-paradigm: Supports procedural, object-oriented, and generic programming.</li>
+</ul>
+</div>
+<div class="elements">
+    <h1>Popular Use Cases:</h1>
+<ul>
+    <li>Game development (e.g., Unreal Engine)</li><br>
+    <li>System/software development (e.g., operating systems, embedded systems)</li><br>
+    <li>GUI applications (e.g., using Qt)</li><br>
+    <li>High-performance applications (e.g., trading platforms)</li>
+</ul>
+</div>
+<div class="elements">
+<h1 id="CodeExampleText">Code Example:</h1>
+<div class="code-window">
+    <div class="window-header">
+        <div class="circle red"></div>
+        <div class="circle yellow"></div>
+        <div class="circle green"></div>
+    </div>
+    <pre><code>
+    #include <iostream>
+    #include <vector>
+    #include <algorithm>
+
+    class Person {
+    public:
+    std::string name;
+    Person(std::string n) : name(n) {}
+    void greet() { std::cout << "Hi, I'm " << name << ".\n"; }
+    };
+
+    int main() {
+    Person p("Alice");
+    p.greet();
+
+    std::vector<int> nums = {3, 1, 4};
+    std::sort(nums.begin(), nums.end());
+
+    for (int n : nums)
+        std::cout << n << " ";
+    std::cout << "\n";
+
+    return 0;
+    }
+</code></pre>
+</div>
+</div>
+
+</body>
+
+
+
+
+<footer>
+        <p>Created by team Cherry<br><br>2025<br><br>&copy; All rights reserved</p>
+        <div style="position: relative; display: inline-block;"><a href="#" onclick="toggleContactBox()" id="contact">Contact</a>
+        <div id="contactBox">
+  <strong>Contact</strong><br>
+  Email: martin.a.angelov.2024@elsys-bg.org<br>
+  Phone: 0876849902<br>
+  <button onclick="toggleContactBox()" style="margin-top:10px;">Close</button>
+        </div>
+        </div>
+        <a href="about.html" id="about">About</a>
+    </footer>
+
+    <script>
+    function toggleContactBox() {
+    const box = document.getElementById("contactBox");
+    box.style.display = box.style.display === "none" ? "block" : "none";
+}
+</script>
+</html>

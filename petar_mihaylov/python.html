@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python</title>
+    <link rel="icon" type="image/webp" href="images/cherry-logo.webp"> 
+    <link rel="stylesheet" href="css3.css">
+</head>
+<body class="background">
+    <nav>
+    <div class="nav-links">
+      <a href="../martin_angelov/home.html"><img src="./images/cherry-logo.webp" id="logo"></a>
+      <a href="../martin_angelov/front.html">Front end</a>
+      <a href="../martin_angelov/back.html">Back end</a>
+      <a href="../martin_angelov/comp_net.html">Embedded programming</a>
+    </div>
+    </nav>
+    <h1 id="h1csharp"> Python</h1> 
+    <div>
+    <p class="paragraph">is a high-level, interpreted, and general-purpose programming language that has gained widespread popularity due to its clean and easy-to-read syntax. It is designed to be highly readable, using English-like keywords and clear indentation, which makes it especially accessible for beginners while still being powerful enough for advanced developers. Python emphasizes code readability and simplicity, allowing developers to express concepts in fewer lines of code compared to many other programming languages.<br><br>
+The language was created by Guido van Rossum and officially released in 1991. Since then, it has evolved under the stewardship of the Python Software Foundation and has seen extensive adoption in a wide variety of fields including web development, data analysis, artificial intelligence, scientific computing, automation, game development, and more.
+</p></div>
+<div class="elements">
+    <h1>Why use python?</h1>
+<ul>
+    <li>Easy to read and write</li><br>
+    <li>Cross-platform compatibility</li><br>
+    <li>Large standard library</li><br>
+    <li>Great community support</li><br>
+    <li>Ideal for beginners and professionals alike</li><br>
+    <li>Widely used in web development, data science, AI, automation, and more
+
+</li>
+</ul>
+</div>
+<div class="elements">
+    <h1>Popular Use Cases:</h1>
+<ul>
+    <li>Web development (Django, Flask)</li><br>
+    <li>Data analysis and visualization (Pandas, Matplotlib)</li><br>
+    <li>Machine learning and AI (TensorFlow, scikit-learn)</li><br>
+    <li>Scripting and automation</li><br>
+    <li>Game development (Pygame)</li><br>
+    <li>Desktop applications (Tkinter, PyQt)</li>
+</ul>
+</div>
+<div class="elements">
+<h1 id="CodeExampleText">Code Example:</h1>
+<div class="code-window">
+    <div class="window-header">
+        <div class="circle red"></div>
+        <div class="circle yellow"></div>
+        <div class="circle green"></div>
+    </div>
+    <pre><code>
+    # A simple Python program
+
+    # Function to greet a user
+    def greet(name):
+        return f"Hello, {name}!"
+
+    # Function to calculate factorial
+    def factorial(n):
+        if n == 0:
+            return 1
+        else:
+            return n * factorial(n - 1)
+
+    # List of names
+    names = ["Alice", "Bob", "Charlie"]
+
+    # Greet each name
+    for name in names:
+        print(greet(name))
+
+    # Calculate and print the factorial of 5
+    print("Factorial of 5 is:", factorial(5))
+</code></pre>
+</div>
+</div>
+</body>
+
+
+
+
+<footer>
+        <p>Created by team Cherry<br><br>2025<br><br>&copy; All rights reserved</p>
+        <div style="position: relative; display: inline-block;"><a href="#" onclick="toggleContactBox()" id="contact">Contact</a>
+        <div id="contactBox">
+  <strong>Contact</strong><br>
+  Email: martin.a.angelov.2024@elsys-bg.org<br>
+  Phone: 0876849902<br>
+  <button onclick="toggleContactBox()" style="margin-top:10px;">Close</button>
+        </div>
+        </div>
+        <a href="about.html" id="about">About</a>
+    </footer>
+
+    <script>
+    function toggleContactBox() {
+    const box = document.getElementById("contactBox");
+    box.style.display = box.style.display === "none" ? "block" : "none";
+}
+</script>
+</html>
